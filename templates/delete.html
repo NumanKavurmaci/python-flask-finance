@@ -1,0 +1,19 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Delete User
+{% endblock %}
+
+{% block main %}
+    <h1>Delete User</h1>
+    <p>Are you sure you want to delete your account? This action cannot be undone.</p>
+    <form id="deleteForm" action="/delete" method="POST">
+        <input type="submit" value="Delete Account" onclick="return confirmDelete()">
+    </form>
+
+    <script>
+        function confirmDelete() {
+            return confirm("Are you sure you want to delete your account?");
+        }
+    </script>
+{% endblock %}

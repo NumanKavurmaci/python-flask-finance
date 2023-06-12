@@ -1,0 +1,43 @@
+/* Navbar */
+nav .navbar-brand {
+  font-size: 2rem;
+}
+
+nav .navbar-brand .blue {
+  color: #537fbe;
+}
+
+nav .navbar-brand .red {
+  color: #ea433b;
+}
+
+nav .navbar-brand .yellow {
+  color: #f5b82e;
+}
+
+nav .navbar-brand .green {
+  color: #2e944b;
+}
+
+/* Form controls */
+main .form-control {
+  display: block;
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+/* Center content */
+main {
+  text-align: center;
+}
+
+/* Responsive images */
+main img {
+  max-width: 100%;
+  height: auto;
+}
